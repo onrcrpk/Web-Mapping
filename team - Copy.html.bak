@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ITC-GFM | Team</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/LOGO.png" alt="Logo"><h1 class="text-primary m-0"></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="data-viewer.html" class="nav-item nav-link">Data Viewer</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Science</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="phoprocess.html" class="dropdown-item">Photogrammetric Process</a>
+                                <a href="webprocess.html" class="dropdown-item">Web-Mapping Process</a>
+								</div>
+                        </div>
+                        <a href="team.html" class="nav-item nav-link active">About Us</a>
+                    </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+	
+<!-- PEER REVIEW POWER POINT PRESENTATIONS -->
+<img src="images/REVIEW_RECEIVED.jpg" style = "position:relative; top:50px; display:block; margin-left:auto; margin-right:auto; width:1280px; height:1432px; border:5px solid black;"/><br><br><br><br>
+
+<!-- HEADING SPECIFICALLY FOR PEER REVIEW GIVEN-->
+<section id="services" class="aaaaa">
+	<div class="container">
+			<h4 class="section-title ">Peer Review Given</h4>
+			<p class="section-subtitle">The information below includes the Feedback which we had given to Group-1 based on the aspects which are not included in their website as mentioned in the Rubric. Based on our level of understanding w.r.t. Web programming, Geo-Web Services and Photogrametry, some necessary suggestions are also provided.</p>
+		</div>
+</section>
+
+<!-- PEER REVIEW POWER POINT PRESENTATIONS -->
+<img src="images/REVIEW_GIVEN.jpg" style = "position:relative; top:50px; display:block; margin-left:auto; margin-right:auto; width:1280px; height:884px; border:5px solid black;"/><br><br><br>
+
+<!-- MAKING A FOOTER WHICH IS STANDARDIZED ACROSS ALL THE PAGES -->
+<footer id="footer">
+	<div class="footer-bottom text-center">
+		<span class="copyright">Copyright &copy; 2021, All rights reserved. Designed By Akhil, Girma and Tefera</span>
+	</div>
+	<div class="clear-fix"></div>
+</footer>
+        
+
+         <!-- footer section -->
+ <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2022 All Rights Reserved by
+      <a href="team.html">ITC-GFM 2021 Students</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

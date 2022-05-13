@@ -1,0 +1,405 @@
+/*----------------------------------------------------------------
+  Name:        main.css
+  Date:        November 2019
+  Description: Base styles for the - Web Programming - exercise
+               (landing page)
+  Version:     2.0
+----------------------------------------------------------------*/
+ 
+/* ------ */
+/* Global */
+/* ------ */
+body {
+    font-family:'Open Sans', sans-serif;
+    border-top:5px solid #4A2E75;
+    background:#ffffff;
+    color:#333333;
+  }
+   
+  p {
+    margin:5px 0;
+    line-height:25px;
+  }
+   
+  a {
+    text-decoration:none;
+    color:inherit;
+    transition:color .5s ease;
+  }
+   
+  a:hover {
+    color:#9164d6;
+  }
+   
+  strong {
+    font-weight:bold;
+  }
+   
+  hr {
+    background-color:#D6D0C1;
+    border:0;
+    height:1px;
+    margin:20px 0;
+  }
+   
+  figcaption {
+    line-height:25px;
+    font-size:14px;
+    width:200px;
+  }
+   
+  figcaption strong {
+    border-bottom:1px solid #D6D0C1;
+    padding-bottom:10px;
+    margin:10px 0;
+    display:block;
+  }
+   
+   
+  /*------*/
+  /* Misc */
+  /*------*/
+  .clear {
+    clear:both;
+  }
+
+  /*--------*/
+/* Header */
+/*--------*/
+.container {
+    width:100%;
+    padding:1px;
+  }
+
+.map_container {
+    width:100%;
+    padding:1px;
+	height:1500px;
+  }
+  
+  .container.header {
+    background:rgba(241,235,250,0.2);
+    height:auto;
+  }
+   
+  header {
+    position:relative;
+    width:auto;
+    max-width:900px;
+    margin:0 auto 20px auto;
+  }
+   
+  header h1 {
+    margin:35px 0 0 0;
+    font-size:55px;
+    color:#51209E;
+    font-family:'Baumans', cursive;
+  }
+   
+  header p {
+    font-size:16px;
+    color:#4A463B;
+    margin-left:132px;
+  }
+
+  nav {
+    position:absolute;
+    right:0;
+    bottom:0;
+  }
+  
+  nav ul {
+    list-style:none;
+  }
+  
+  nav ul li {
+    display:block;
+    float:left;
+    padding:3px 15px;
+  }
+  
+  nav ul li a {
+    text-transform:uppercase;
+    transition:all .25s ease;
+  }
+  
+  nav ul li.active {
+    background:#f1edf8;
+  }
+  
+  nav ul li.active a{
+    color:#9164d6;
+  }
+
+  /*--------*/
+/* Spacer */
+/*--------*/
+#spacer {
+    width:auto;
+    height:70px;
+    background-color:#4A2E75;
+    position:relative;
+    color:#fff;
+    font-size:18px;
+  }
+   
+  #spacer p {
+    margin-top:22px;
+    width:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-450px;
+  }
+
+  /*----------*/
+/* Features */
+/*----------*/
+#featured_content {
+    width:auto;
+    max-width:1900px;
+    margin:0 auto;
+    padding:50px 0 45px 0;
+    text-align: center;
+  }
+   
+  #featured_content article {
+    display: inline-flex;
+    width:250px;
+    font-size:14px;
+    margin: 0 10px;
+    position:relative;
+  }
+   
+  #featured_content article p {
+    line-height:25px;
+  }
+   
+  #featured_content article h3 {
+    font-size:20px;
+    padding-top: 140px;
+    margin-bottom:10px;
+  }
+   
+  #featured_content article img {
+    position:absolute;
+    top:20px;
+    left:85px;
+    transition: opacity .5s ease-in-out;
+  }
+   
+  #featured_content article a:hover {
+    color:#9164d6;
+  }
+   
+  #featured_content article a:hover > img.top-icon {
+    opacity:0;
+  }
+
+  
+/*-------*/
+/* Atlas */
+/*-------*/
+.container.four-cols {
+    background:rgba(242,242,242,0.6);
+    height:auto;
+    padding-bottom:20px;
+  }
+   
+  #atlas_columns, #cloud_columns {
+    line-height:25px;
+    clear:both;
+    width:auto;
+    max-width:1200px;
+    margin:0 auto;
+  }
+   
+  #atlas_columns h2, #cloud_columns h3 {
+    font-size:20px;
+    border-bottom:1px solid #D6D0C1;
+    padding:20px 0;
+    margin-bottom: 20px;
+  }
+   
+  #atlas_columns .img-item {
+    float:left;
+    margin:0 25px 20px 0;
+  }
+   
+  #atlas_columns .img-item a {
+    position:relative;
+    display:block;
+  }
+   
+  .thumb-screen {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:110px;
+    background:#000;
+    z-index:99;
+    opacity:0;
+    transition: opacity .5s ease;
+  }
+   
+  .thumb-screen:hover {
+    opacity:0.3;
+  }
+
+  /*-------*/
+/* Cloud */
+/*-------*/
+#cloud_columns article.column1, #cloud_columns .column2 {
+    margin: 40px 0;
+    font-size:14px;
+    float:left;
+    width:auto;
+    max-width:450px;
+  }
+   
+  #cloud_columns .column2 {
+    margin:90px 0;
+  }
+   
+  .row {
+    position:relative;
+    margin:40px 0 0 50px;
+    float:right;
+    width:350px;
+  }
+   
+  .row img {
+    float:left;
+  }
+   
+  .row p {
+    margin-left:100px;
+  }
+   
+  .cloud {
+    top:0;
+    left:0;
+    position:absolute;
+    width:auto;
+    height:80px;
+    transition:opacity .5s ease-in-out;
+  }
+   
+  .cloud.top-icon:hover {
+    opacity:0;
+  }
+
+  
+/*--------*/
+/* Footer */
+/*--------*/
+footer {
+    position:relative;
+    clear:both;
+    width:auto;
+    height:350px;
+    background:#333333;
+  }
+   
+  footer .rightlist img {
+    width:80px;
+  }
+   
+  footer .wrapper {
+    line-height:25px;
+    margin: 0 auto;
+    padding-top:30px;
+    width:auto;
+    max-width:900px;
+    font-size:14px;
+  }
+   
+  footer .wrapper .column {
+    font-family: 'Open Sans', sans-serif;
+    color:#ababab;
+    float:left;
+    width:280px;
+    margin-right:20px;
+  }
+
+  footer .wrapper .column h4 {
+    font-size: 16px;
+    color:#fff;
+    border-bottom: 1px solid #444444;
+    padding:0 0 10px 0;
+    margin-bottom: 10px;
+  }
+   
+  footer .wrapper .column.midlist ul li {
+    display:block;
+    width:auto;
+    padding:0 0 10px 25px;
+    margin-bottom:10px;
+    border-bottom:1px solid #444444;
+    background:url(../images/arrowright.png) left 6px no-repeat;
+  }
+   
+  footer .wrapper .column.midlist ul li a:hover {
+    color:#fff;
+  }
+   
+  footer .wrapper .column.rightlist ul li {
+    display:block;
+    width:auto;
+    margin-bottom:15px;
+  }
+   
+  footer .wrapper .column.rightlist ul li a span {
+    margin-left:95px;
+    display:block;
+    height:44px;
+  }
+   
+  footer .wrapper .column.rightlist ul li a img {
+    transition: border .25s ease;
+    float:left;
+    border:3px solid #444444;
+  }
+   
+  footer .wrapper .column.rightlist ul li a img:hover {
+    border-color:#5e5e5e;
+  }
+
+  #copyright {
+    background:#1D1D1D;
+    height:70px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+  #copyright .wrapper {
+    padding-top:25px;
+    color: #5e5e5e;
+    font-size:14px;
+    position:relative;
+  }
+  #copyright .wrapper .social {
+    position:absolute;
+    right:0;
+    top:25px;
+  }
+  #copyright .wrapper .social a {
+    transition:opacity .25s ease;
+    opacity:0.3;
+    margin-left:12px;
+    display:block;
+    float:left;
+  }
+  #copyright .wrapper .social a:hover {
+    opacity:0.7;
+  }
+  #copyright .wrapper a {
+    color:#ABABAB;
+  }
+   
+  #copyright .wrapper a:hover {
+    color:#fff;
+  }
+
