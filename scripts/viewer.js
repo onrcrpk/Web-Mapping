@@ -42,8 +42,6 @@ function init() {
 	// Create & add WMS-layer.
 
     // Create map
-    var new1 = L.leafletGeotiff("dtm.tif", options).addTo(map);
-
 
 	var gov = L.tileLayer.wms("https://gisedu.itc.utwente.nl/cgi-bin/mapserv.exe?map=d:/iishome/student/s6047165/thailand/EnschedeWMS.map&", {
     layers: 'Gov',
@@ -109,7 +107,7 @@ function init() {
   }
 
   var overlayerMaps = {
-	  "AHN3 DTM":new1,
+	  "AHN3 DTM":gov,
 	  "DTM":dtm,
 	  "Uncertainty in DTM":uncern,
 	  "Aerial Photo":govorto,

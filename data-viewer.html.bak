@@ -92,45 +92,7 @@
         </div>
         <!-- Navbar & Hero End -->
 		
-		 <!-- Service Start -->
-        <div class="featured_content">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
-                    <h1 class="mb-5">Explore Our Services</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-1 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded pt-3 center">
-                            <div class="p-4">
-                                <h5>Master Chefs</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <h5>Quality Food</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <h5>Online Order</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
 
-
-        <!-- Service Start -->
 		<!-- ADDING PAGE HEADING AND A BRIEF DESCRIPTION ABOUT THE CONTENTS OF THE PAGE -->
 <section id="services" class="section text-center white-smoke-color">
 	<div class="container"><br><br><br>
@@ -195,7 +157,6 @@
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script src="dist/L.Control.Opacity.js"></script>
     <link rel="stylesheet" href="src/leaflet.legend.css" />
-    <script type="text/javascript" src="src/leaflet.legend.js"></script>
-
+    
 </body>
 </html>
