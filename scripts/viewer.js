@@ -219,21 +219,8 @@ L.control
     })
     .addTo(map);
 
+    map.on('overlayadd', function (eventLayer) {}
 
-    map.on('overlayadd', function (eventLayer) {
+      )};
 
-        switch (eventLayer.name) {
-        case "Regions":
-            legend1.addTo(map);
-            map.removeControl(legend2);
-                break;
-        case "Counties":
-            legend2.addTo(map);
-            map.removeControl(legend1);
-                break;
-        default:
-            map.removeControl(legend1);
-            map.removeControl(legend2);
-        }
-      });
-}
+

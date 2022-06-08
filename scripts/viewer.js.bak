@@ -40,6 +40,9 @@ function init() {
     
 	
 	// Create & add WMS-layer.
+
+    // Create map
+
 	var gov = L.tileLayer.wms("https://gisedu.itc.utwente.nl/cgi-bin/mapserv.exe?map=d:/iishome/student/s6047165/thailand/EnschedeWMS.map&", {
     layers: 'Gov',
     format: 'image/png',
@@ -148,15 +151,15 @@ function init() {
         position: "bottomright",
 		column:1,
         legends: [{
-            label: "<= -1",
+            label: "<= (-1)",
             type: "image",
             url: 'img/red.jpg',
         }, {
-                label: "-1 - -0.25",
+                label: "(-1) - (-0.25)",
                 type: "image",
                 url: 'img/yellow.jpg'
             }, {
-                label: "-0.25 - -0.25",
+                label: "(-0.25) - 0.25",
                 type: "image",
                 url: 'img/green.jpg'
             }, {
@@ -216,7 +219,6 @@ L.control
     })
     .addTo(map);
 
-
     map.on('overlayadd', function (eventLayer) {
 
         switch (eventLayer.name) {
@@ -229,8 +231,8 @@ L.control
             map.removeControl(legend1);
                 break;
         default:
-            map.removeControl(legend1);
-            map.removeControl(legend2);
+
         }
       });
 }
+
